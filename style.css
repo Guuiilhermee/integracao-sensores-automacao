@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: #dbdbdb;
+}
+
+/*NOME*/
+.name{
+    margin-top: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.name h1{
+    color: #000088;
+    background-color: #a4a4fc;
+    font-weight: bold;
+}
+
+.name p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+/*OBJETIVO*/
+.objective{
+    margin-top: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.objective h2{
+    color: #000088;
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-bottom: #000088 2px solid;
+}
+
+.objective p{
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+/*XP PRO*/
+.xp{
+    margin-top: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.xp h2{
+    color: #000088;
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-bottom: #000088 2px solid;
+}
+
+.xp-pro{
+    margin-top: 1.4rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.xp-pro h3{
+    color: #4b4a4a;
+    text-align: left;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.xp-pro h3 a{
+    color: #1e1eff;
+    text-decoration: none;
+}
+
+.xp-pro h4{
+    color: #4b4a4a;
+    margin-top: 0.8rem;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.xp-pro p{
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+/*FORMAÇÃO*/
+.academic{
+    margin-top: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.academic h2{
+    color: #000088;
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-bottom: #000088 2px solid;
+}
+
+.information{
+    margin-top: 1.4rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.information h3{
+    color: #4b4a4a;
+    text-align: left;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.information p{
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+/*CURSOS*/
+.courses{
+    margin-top: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.courses h2{
+    color: #000088;
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-bottom: #000088 2px solid;
+}
+
+.notation{
+    margin-top: 1.4rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.notation li{
+    text-align: left;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+} 
+
+.data{
+    margin-top: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 1rem;
+}
+
+.data h3{
+    color: #4b4a4a;
+    text-align: left;
+    font-size: 0.9rem;
+    margin-top: 1rem; 
+}
+
+.data p{
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 0.7rem;
+}
