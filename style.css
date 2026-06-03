@@ -220,13 +220,10 @@ main{
     flex: 1;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1400px) {
 
-    #carouselDisjuntor{
-
-    }
     .carousel-inner img{
-        /* width: 1280px; */
+        /* max-width: 1280px; */
         height: 720px;
 }
 .img-cell img{
@@ -234,7 +231,7 @@ main{
 }
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1399px){
     #carouselDisjuntor{
             display: none;
         }
@@ -253,6 +250,20 @@ main{
         }
 }
 
+@media screen and (min-width: 1280px){
+    .col_img_cell img{
+            width: 425px;
+            padding: .2rem;
+        }
+}
+
+@media screen and (min-width: 1000px){
+    .col_img_cell img{
+            width: 332px;
+            padding: .2rem;
+        }
+}
+
 @media screen and (max-width: 320px){
         .img-cell{
             display: flex;
@@ -265,4 +276,13 @@ main{
             width: 320px;
             padding: 1rem;
         }
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    
+    .col_img_cell img{
+            width: 320px;
+            padding: 1rem;
+        }
+
 }
