@@ -6,14 +6,25 @@
     font-family: "Poppins", sans-serif;
 }
 
+html, body{
+    height: 100%;
+}
+
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     text-align: center;
     background-color: #dbdbdb;
 }
 
+main{
+    flex: 1;
+}
+
 /*NOME*/
 .name{
-    margin-top: 1rem;
+    margin-top: 3rem;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -21,6 +32,8 @@ body{
     color: #000088;
     background-color: #a4a4fc;
     font-weight: bold;
+    text-align: center;
+    padding: 0.3rem;
 }
 
 .name p{
@@ -156,8 +169,12 @@ body{
 .notation li{
     text-align: left;
     font-size: 0.7rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
 } 
+
+.notation ul{
+    padding-left: 1rem;
+}
 
 .data{
     margin-top: 1rem;
@@ -177,4 +194,75 @@ body{
     margin-top: 1rem;
     text-align: left;
     font-size: 0.7rem;
+}
+
+.carousel img{
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body{
+    flex: 1;
+}
+
+@media screen and (min-width: 1280px) {
+
+    #carouselDisjuntor{
+
+    }
+    .carousel-inner img{
+        /* width: 1280px; */
+        height: 720px;
+}
+.img-cell img{
+    display: none;
+}
+}
+
+@media screen and (max-width: 1280px){
+    #carouselDisjuntor{
+            display: none;
+        }
+}
+
+@media screen and (min-width: 800px){
+    .img-cell{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .col_img_cell img{
+            width: 250px;
+            padding: .2rem;
+        }
+}
+
+@media screen and (max-width: 320px){
+        .img-cell{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        .col_img_cell img{
+            width: 320px;
+            padding: 1rem;
+        }
 }
