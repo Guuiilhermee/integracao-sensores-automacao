@@ -63,6 +63,17 @@ main{
     margin-top: 1rem;
 }
 
+.link_empresa{
+    margin-top: 1.4rem;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.link_empresa a{
+    color: #1e1eff;
+    text-decoration: none;
+}
+
 /*XP PRO*/
 .xp{
     margin-top: 1rem;
