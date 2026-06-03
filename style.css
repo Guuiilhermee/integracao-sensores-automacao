@@ -321,3 +321,7 @@ main{
 small a{
     color: #fff;
 }
+
+small a:hover{
+    color: #1e1eff;
+}
