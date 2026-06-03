@@ -286,3 +286,24 @@ main{
         }
 
 }
+
+.empresa_logo_mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 999px) {
+    .empresa_logo_desktop{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    .empresa_logo_mobile{
+        display: none;
+    }
+}
+
