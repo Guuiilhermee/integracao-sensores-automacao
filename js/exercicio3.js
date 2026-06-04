@@ -128,7 +128,7 @@ function verificarComando(){
     if(acertos === 9){
 
         resultado.innerHTML =
-        "Circuito de comando correto!"
+        "Ligação CORRETA!"
 
         resultado.style.color = "green"
 
@@ -137,7 +137,7 @@ function verificarComando(){
     }else{
 
         resultado.innerHTML =
-        "Circuito incorreto!"
+        "Ligação INCORRETA!"
 
         resultado.style.color = "red"
 

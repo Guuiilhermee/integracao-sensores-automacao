@@ -67,14 +67,14 @@
     <main>
         <!-- NOME -->
         <div class="name">
-            <h1>Componentes</h1>
-            <p>Integração de sensores para automação.</p>
+            <h1>Objetivos</h1>
+            <p>Criar um ecossistema inteligente onde máquinas, softwares e operadores trocam dados em tempo real.</p>
         </div>
 
         <!-- OBJETIVO -->
         <div class="objective">
-            <h2>Objetivo</h2>
-            <p>Pesquisa de componentes, conceitos e aplicações, com imagens e vídeos explicativos.</p>
+            <h2>Exercícios</h2>
+            <p>Alguns exercícios de ligações de componentes para a Automação.</p>
         </div>
 
         <!-- EXERCÍCIO 1 -->
@@ -256,162 +256,159 @@
 
         </section>
 
+        <!-- EXERCICIO 3 -->
+        <section id="exercicio3">
 
+            <div class="container py-5">
 
-<!-- EXERCICIO 3 -->
+                <h1 class="text-center mb-4">
+                    Exercício 3 - Circuito de Comando com Selo
+                </h1>
 
-<section id="exercicio3">
+                <p class="text-center mb-5">
+                    Faça a ligação correta dos componentes do circuito de comando.
+                </p>
 
-    <div class="container py-5">
+                <!-- WRAPPER RESPONSIVO -->
 
-        <h1 class="text-center mb-4">
-            Exercício 3 - Circuito de Comando com Selo
-        </h1>
+                <div class="painel3-wrapper">
 
-        <p class="text-center mb-5">
-            Monte corretamente o circuito de comando.
-        </p>
+                    <!-- PAINEL -->
 
-        <!-- WRAPPER RESPONSIVO -->
+                    <div id="painel3">
 
-        <div class="painel3-wrapper">
+                        <!-- FONTE -->
 
-            <!-- PAINEL -->
+                        <div class="componente3" id="fonte3">
 
-            <div id="painel3">
+                            <img src="../../img/objetivo/exe1_fonte.png">
 
-                <!-- FONTE -->
+                            <div class="label-componente">
+                                Fonte
+                            </div>
 
-                <div class="componente3" id="fonte3">
+                        </div>
 
-                    <img src="../../img/objetivo/exe1_fonte.png">
+                        <!-- DISJUNTOR -->
 
-                    <div class="label-componente">
-                        Fonte
+                        <div class="componente3" id="disjuntor3">
+
+                            <img src="../../img/objetivo/exe2_triFase_disjuntor.png">
+
+                            <div class="label-componente">
+                                Disjuntor
+                            </div>
+
+                        </div>
+
+                        <!-- BOTÃO NF -->
+
+                        <div class="componente3" id="nf3">
+
+                            <img src="../../img/objetivo/exe3_btn_NF.png">
+
+                            <div class="label-componente">
+                                Botão NF
+                            </div>
+
+                        </div>
+
+                        <!-- BOTÃO NA -->
+
+                        <div class="componente3" id="na3">
+
+                            <img src="../../img/objetivo/exe1_botao-na.png">
+
+                            <div class="label-componente">
+                                Botão NA
+                            </div>
+
+                        </div>
+
+                        <!-- RELÉ TÉRMICO -->
+
+                        <div class="componente3" id="releT3">
+
+                            <img src="../../img/objetivo/releTermico_exe2.png">
+
+                            <div class="label-componente">
+                                F Térmico
+                            </div>
+
+                        </div>
+
+                        <!-- BOBINA -->
+
+                        <div class="componente3" id="bobina3">
+
+                            <img src="../../img/objetivo/bobina_exe3.png">
+
+                            <div class="label-componente">
+                                Bobina
+                            </div>
+
+                        </div>
+
+                        <!-- SELO -->
+
+                        <div class="componente3" id="selo3">
+
+                            <img src="../../img/objetivo/exe2_contator.png">
+
+                            <div class="label-componente">
+                                Contator
+                            </div>
+
+                        </div>
+
+                        <!-- LED -->
+
+                        <div class="componente3" id="led3">
+
+                            <img src="../../img/objetivo/exe1_led-off.png"
+                                id="img-led3">
+
+                            <div class="label-componente">
+                                LED
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
 
-                <!-- DISJUNTOR -->
+                <!-- BOTÕES -->
 
-                <div class="componente3" id="disjuntor3">
+                <div class="text-center mt-5">
 
-                    <img src="../../img/objetivo/exe2_triFase_disjuntor.png">
+                    <button class="btn btn-dark"
+                            onclick="verificarComando()">
 
-                    <div class="label-componente">
-                        Disjuntor
-                    </div>
+                        Verificar Ligação
 
-                </div>
+                    </button>
 
-                <!-- BOTÃO NF -->
+                    <button class="btn btn-secondary ms-2"
+                            onclick="resetar3()">
 
-                <div class="componente3" id="nf3">
+                        Resetar
 
-                    <img src="../../img/objetivo/exe3_btn_NF.png">
-
-                    <div class="label-componente">
-                        Botão NF
-                    </div>
+                    </button>
 
                 </div>
 
-                <!-- BOTÃO NA -->
+                <!-- RESULTADO -->
 
-                <div class="componente3" id="na3">
+                <div class="text-center mt-4">
 
-                    <img src="../../img/objetivo/exe1_botao-na.png">
-
-                    <div class="label-componente">
-                        Botão NA
-                    </div>
-
-                </div>
-
-                <!-- RELÉ TÉRMICO -->
-
-                <div class="componente3" id="releT3">
-
-                    <img src="../../img/objetivo/releTermico_exe2.png">
-
-                    <div class="label-componente">
-                        F Térmico
-                    </div>
-
-                </div>
-
-                <!-- BOBINA -->
-
-                <div class="componente3" id="bobina3">
-
-                    <img src="../../img/objetivo/bobina_exe3.png">
-
-                    <div class="label-componente">
-                        Bobina
-                    </div>
-
-                </div>
-
-                <!-- SELO -->
-
-                <div class="componente3" id="selo3">
-
-                    <img src="../../img/objetivo/exe2_contator.png">
-
-                    <div class="label-componente">
-                        Contator
-                    </div>
-
-                </div>
-
-                <!-- LED -->
-
-                <div class="componente3" id="led3">
-
-                    <img src="../../img/objetivo/exe1_led-off.png"
-                         id="img-led3">
-
-                    <div class="label-componente">
-                        LED
-                    </div>
+                    <h3 id="resultado3"></h3>
 
                 </div>
 
             </div>
 
-        </div>
-
-        <!-- BOTÕES -->
-
-        <div class="text-center mt-5">
-
-            <button class="btn btn-dark"
-                    onclick="verificarComando()">
-
-                Verificar Ligação
-
-            </button>
-
-            <button class="btn btn-secondary ms-2"
-                    onclick="resetar3()">
-
-                Resetar
-
-            </button>
-
-        </div>
-
-        <!-- RESULTADO -->
-
-        <div class="text-center mt-4">
-
-            <h3 id="resultado3"></h3>
-
-        </div>
-
-    </div>
-
-</section>
+        </section>
 
 
 

@@ -49,14 +49,14 @@ function verificarPotencia() {
     }) 
     
     if (acertos === 4) { 
-        resultado.innerHTML = "Ligação INCORRETA!" 
+        resultado.innerHTML = "Ligação CORRETA!" 
 
         resultado.style.color = "green" 
         
         motor.classList.add("motor-ligado") 
     } else { 
         
-        resultado.innerHTML = "Ligação CORRETA!" 
+        resultado.innerHTML = "Ligação INCORRETA!" 
 
         resultado.style.color = "red" 
         
