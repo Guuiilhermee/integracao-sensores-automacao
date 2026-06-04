@@ -172,3 +172,99 @@
     top: 170px;
     left: 1080px;
 }
+
+/* WRAPPER RESPONSIVO */
+.painel3-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+/* PAINEL */
+
+#painel3 {
+    width: 1450px;
+    height: 700px;
+    margin: auto;
+ background: white;
+    border-radius: 20px;
+    border: 3px solid #cfcfcf;
+    position: relative;
+    overflow: hidden;
+}
+
+/* COMPONENTES */
+.componente3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* IMAGENS */
+.componente3 img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+
+#fonte3 {
+    top: 250px;
+    left: 40px;
+}
+
+#disjuntor3 {
+    top: 250px;
+    left: 240px;
+}
+
+#nf3 {
+    top: 250px;
+    left: 450px;
+}
+
+#na3 {
+    top: 250px;
+    left: 660px;
+}
+
+#releT3 {
+    top: 250px;
+    left: 870px;
+}
+
+#bobina3 {
+    top: 250px;
+    left: 1080px;
+}
+
+/* SELO */
+#selo3 {
+    top: 40px;
+    left: 660px;
+}
+
+/* LED */
+#led3 {
+    top: 470px;
+    left: 1080px;
+}
+
+.led-ligado3 {
+    filter:
+        brightness(3)
+        drop-shadow(0 0 10px lime)
+        drop-shadow(0 0 25px lime)
+        drop-shadow(0 0 40px lime);
+    transform: scale(1.05);
+
+}
+
+@media screen and (max-width: 1400px){
+    .painel3-wrapper{
+        overflow-x: auto;
+    }
+
+}
