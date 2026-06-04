@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/exercicio.css">
     <script src="../../js/src/exercicio.js" defer></script>
+    <script src="../../js/src/exercicio2.js" defer></script>
     <title>Exercícios</title>
 </head>
 
@@ -76,6 +77,7 @@
         </div>
 
         <!-- EXERCÍCIO 1 -->
+         <section id="exercicio1">
         <div class="container py-5">
 
     <h1 class="text-center mb-4">
@@ -145,7 +147,121 @@
                 <h3 id="resultado"></h3>
             </div>
         </div>
+        </section>
 
+
+        <!-- EXERCICIO 2 -->
+        <section id="exercicio2">
+
+<!-- EXERCÍCIO 2 -->
+
+<div class="container py-5">
+
+    <h1 class="text-center mb-4">
+        Exercício 2 - Circuito de Potência
+    </h1>
+
+    <p class="text-center mb-5">
+        Faça a ligação correta dos componentes trifásicos.
+    </p>
+
+    <!-- PAINEL -->
+
+    <div id="painel2">
+
+        <!-- FONTE -->
+        <div class="componente2" id="fonte2">
+
+            <img src="../../img/objetivo/exe1_fonte.png">
+
+            <div class="label-componente">
+                Fonte
+            </div>
+
+        </div>
+
+        <!-- DISJUNTOR TRI -->
+        <div class="componente2" id="disjuntor2">
+
+            <img src="../../img/objetivo/exe2_triFase_disjuntor.png">
+
+            <div class="label-componente">
+                Disjuntor Trifasico
+            </div>
+
+        </div>
+
+        <!-- CONTATOR -->
+        <div class="componente2" id="contator2">
+
+            <img src="../../img/objetivo/exe2_contator.png">
+
+            <div class="label-componente">
+                Contator
+            </div>
+
+        </div>
+
+        <!-- RELÉ -->
+        <div class="componente2" id="rele2">
+
+            <img src="../../img/objetivo/releTermico_exe2.png">
+
+            <div class="label-componente">
+                Relé Térmico
+            </div>
+
+        </div>
+
+        <!-- MOTOR -->
+        <div class="componente2" id="motor2">
+
+            <img src="../../img/objetivo/motorTri_exe2.png"
+                 id="img-motor">
+
+            <div class="label-componente">
+                Motor
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOTÕES -->
+
+    <div class="text-center mt-5">
+
+        <button class="btn btn-dark"
+                onclick="verificarPotencia()">
+
+            Verificar Ligação
+
+        </button>
+
+        <button class="btn btn-secondary ms-2"
+                onclick="resetar2()">
+
+            Resetar
+
+        </button>
+
+    </div>
+
+    <!-- RESULTADO -->
+
+    <div class="text-center mt-4">
+
+        <h3 id="resultado2"></h3>
+
+    </div>
+
+</div>
+
+        </section>
+
+        <section id="exercicio3">
+
+        </section>
 
     </main>
     <footer class="bg-dark text-white text-center py-4 mt-5">

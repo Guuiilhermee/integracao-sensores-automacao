@@ -56,8 +56,7 @@ function verificarLigacao(){
     resultado.innerHTML = "Ligação CORRETA!"
     resultado.style.color = "green"
 
-    document
-    .getElementById("img-led")
+    document.getElementById("img-led")
     .classList.add("led-ligado")
 
 }else{
@@ -65,8 +64,7 @@ function verificarLigacao(){
     resultado.innerHTML = "Ligação INCORRETA!"
     resultado.style.color = "red"
 
-    document
-    .getElementById("img-led")
+    document.getElementById("img-led")
     .classList.remove("led-ligado")
 
 }

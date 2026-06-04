@@ -17,7 +17,7 @@
 
     overflow: hidden;
 
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -99,21 +99,76 @@
 .led-ligado {
 
     filter:
-        brightness(1.8)
-        drop-shadow(0 0 15px lime)
-        drop-shadow(0 0 30px lime);
+        brightness(1.8) drop-shadow(0 0 15px lime) drop-shadow(0 0 30px lime);
 
 }
 
 /* RESPONSIVO */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
 
-    #painel{
+    #painel {
 
         overflow-x: auto;
         overflow-y: hidden;
 
     }
 
+}
+
+
+#painel2 {
+    width: 100%;
+    max-width: 1400px;
+    height: 550px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    border: 3px solid #cfcfcf;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* COMPONENTES */
+.componente2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.componente2 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    user-select: none;
+}
+
+/* POSIÇÕES */
+#fonte2 {
+    top: 170px;
+    left: 40px;
+}
+
+#disjuntor2 {
+    top: 170px;
+    left: 300px;
+}
+
+#contator2 {
+    top: 170px;
+    left: 560px;
+}
+
+#rele2 {
+    top: 170px;
+    left: 820px;
+}
+
+#motor2 {
+    top: 170px;
+    left: 1080px;
 }
