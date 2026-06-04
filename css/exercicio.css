@@ -1,0 +1,119 @@
+#painel {
+
+    width: 100%;
+    max-width: 1200px;
+
+    height: 500px;
+
+    margin: auto;
+
+    background: white;
+
+    border-radius: 20px;
+
+    border: 3px solid #cfcfcf;
+
+    position: relative;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+/* COMPONENTES */
+
+.componente {
+
+    position: absolute;
+
+    text-align: center;
+
+}
+
+/* IMAGENS */
+
+.componente img {
+
+    width: 140px;
+
+    user-select: none;
+
+}
+
+/* PONTO DE CONEXÃO */
+
+.ponto {
+
+    width: 18px;
+    height: 18px;
+
+    background: #2f4f6f;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    bottom: -10px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    border: 3px solid white;
+
+}
+
+/* POSIÇÕES */
+
+#energia {
+
+    top: 140px;
+    left: 60px;
+
+}
+
+#disjuntor {
+
+    top: 140px;
+    left: 330px;
+
+}
+
+#botao {
+
+    top: 140px;
+    left: 600px;
+
+}
+
+#led {
+
+    top: 140px;
+    left: 870px;
+
+}
+
+/* LED LIGADO */
+
+.led-ligado {
+
+    filter:
+        brightness(1.8)
+        drop-shadow(0 0 15px lime)
+        drop-shadow(0 0 30px lime);
+
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 1200px){
+
+    #painel{
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+    }
+
+}
