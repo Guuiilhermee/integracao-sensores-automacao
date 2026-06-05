@@ -31,6 +31,10 @@
 
 }
 
+.txt_btn{
+    padding-top: 48px;
+}
+
 /* IMAGENS */
 
 .componente img {
@@ -44,22 +48,14 @@
 /* PONTO DE CONEXÃO */
 
 .ponto {
-
     width: 18px;
     height: 18px;
-
     background: #2f4f6f;
-
     border-radius: 50%;
-
     position: absolute;
-
     bottom: -10px;
-
     left: 50%;
-
     transform: translateX(-50%);
-
     border: 3px solid white;
 
 }
@@ -82,7 +78,7 @@
 
 #botao {
 
-    top: 140px;
+    top: 200px;
     left: 600px;
 
 }
