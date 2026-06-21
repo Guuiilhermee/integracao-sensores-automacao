@@ -123,7 +123,7 @@ function verificarComando(){
 
     })
 
-    if(acertos === 9){
+    if(acertos === 8){
 
         resultado.innerHTML =
         "Ligação CORRETA!"
