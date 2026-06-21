@@ -95,8 +95,6 @@ function verificarComando(){
 
         ["na3", "selo3"],
 
-        ["na3", "led3"],
-
         ["led3", "bobina3"]
 
     ]
