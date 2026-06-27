@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/tutorial.css">
+    <title>Tutorial - TIA Portal</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../../index.html">Automação Industrial</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../../../index.html">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../objetivo/obj.html">Objetivo</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown">
+                            Componentes
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../disjuntor.html">Disjuntor</a></li>
+                            <li><a class="dropdown-item" href="../contator.html">Contator</a></li>
+                            <li><a class="dropdown-item" href="..//btn_pulso.html">Botão Pulso</a></li>
+                            <li><a class="dropdown-item" href="../chave.html">Chave Manopla</a></li>
+                            <li><a class="dropdown-item" href="../sensorFC.html">Sensor Fim de Curso</a></li>
+                            <li><a class="dropdown-item" href="../motorTF.html">Motor Elétrico Trifásico</a></li>
+                            <li><a class="dropdown-item" href="../multimetro.html">Multímetro</a></li>
+                            <li><a class="dropdown-item" href="../releTemp.html">Relé Temporizador</a></li>
+                            <li><a class="dropdown-item" href="../disjuntor_Motor.html">Disjuntor Motor</a></li>
+                            <li><a class="dropdown-item" href="../releTermico.html">Relé Térmico</a></li>
+                            <li><a class="dropdown-item" href="./clp.html">PLC</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../profi/profissao.html">Profissões</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-vintage">
+        <div class="livro-container">
+
+            <!-- TÍTULO -->
+            <h1 class="titulo-livro">
+                Tutorial <span>TIA PORTAL</span>
+            </h1>
+            <div class="subtitulo-livro">
+                Como configurar o software <strong>Tia Portal</strong> para programação do CLP Siemens S7-1200.
+            </div>
+
+            <!-- PASSO 1 -->
+            <div class="passo">
+                <h2>
+                    <span class="numero-passo">PASSO 1</span>
+                    Instalar
+                </h2>
+                <p>
+                    <span class="destaque-preto">1.</span>
+                    Após instalar o <strong>TIA Portal</strong>, clique no ícone 
+                    do software para abri-lo.
+                </p>
+                <div class="img-passo">
+                    <img src="../../../img/plc/tutorial/01_tiaportal.png">
+                    <div class="legenda">Figura 1 — Ícone do TIA Portal na área de trabalho</div>
+                </div>
+            </div>
+
+            <!-- PASSO 2 -->
+            <div class="passo">
+                <h2>
+                    <span class="numero-passo">PASSO 2</span>
+                    Aguarde
+                </h2>
+                <p>
+                    <span class="destaque-preto">1.1</span>
+                    Aguarde o <strong>TIA Portal</strong> carregar completamente. 
+                    Este processo pode levar alguns segundos dependendo da 
+                    configuração do seu computador.
+                </p>
+                <div class="img-passo">
+                    <img src="../../../img/plc/tutorial/01_tiaportal.png"
+                         alt="TIA Portal carregando">
+                    <div class="legenda">Figura 2 — Tela de carregamento do TIA Portal</div>
+                </div>
+            </div>
+
+            <!-- PASSO 3 -->
+            <div class="passo">
+                <h2>
+                    <span class="numero-passo">PASSO 3</span>
+                    Criar Novo Projeto
+                </h2>
+                <p>
+                    <span class="destaque-preto">2.</span>
+                    Ao abrir o <strong>TIA Portal</strong>, clique em 
+                    <strong>"Criar novo projeto"</strong> ou 
+                    <strong>"Abrir projeto existente"</strong>.
+                </p>
+                <div class="img-passo">
+                    <img src="../../../img/plc/tutorial/01_tiaportal.png"
+                         alt="Tela inicial do TIA Portal">
+                    <div class="legenda">Figura 3 — Tela inicial do TIA Portal</div>
+                </div>
+            </div>
+
+            <!-- PASSO 4 -->
+            <div class="passo">
+                <h2>
+                    <span class="numero-passo">PASSO 4</span>
+                    Adicionar Dispositivo
+                </h2>
+                <p>
+                    <span class="destaque-preto">3.</span>
+                    Clique em <strong>"Adicionar novo dispositivo"</strong> e 
+                    selecione o modelo do seu CLP: 
+                    <strong>SIMATIC S7-1200</strong> → CPU 1214C.
+                </p>
+                <div class="img-passo">
+                    <img src="../../../img/plc/tutorial/01_tiaportal.png">
+                    <div class="legenda">Figura 4 — Selecionando o CPU 1214C</div>
+                </div>
+            </div>
+
+            <!-- PASSO 5 -->
+            <div class="passo">
+                <h2>
+                    <span class="numero-passo">PASSO 5</span>
+                    Configurar Hardware
+                </h2>
+                <p>
+                    <span class="destaque-preto">4.</span>
+                    Na janela de <strong>configuração de hardware</strong>, 
+                    você pode adicionar módulos de <strong>entrada/saída</strong> 
+                    e configurar os parâmetros do CLP.
+                </p>
+                <div class="img-passo">
+                    <img src="../../../img/plc/tutorial/01_tiaportal.png"
+                         alt="Configuração de hardware TIA Portal">
+                    <div class="legenda">Figura 5 — Configuração de hardware do S7-1200</div>
+                </div>
+            </div>
+
+            <!-- PASSO 6 -->
+            <div class="passo">
+                <h2>
+                    <span class="numero-passo">PASSO 6</span>
+                    Programar e Baixar
+                </h2>
+                <p>
+                    <span class="destaque-preto">5.</span>
+                    Após configurar o hardware, escreva seu programa em 
+                    <strong>Ladder</strong>, <strong>FBD</strong> ou 
+                    <strong>SCL</strong>. Em seguida, clique em 
+                    <strong>"Baixar para o dispositivo"</strong>.
+                </p>
+                <div class="img-passo">
+                    <img src="../../../img/plc/tutorial/01_tiaportal.png"
+                         alt="Download para o CLP">
+                    <div class="legenda">Figura 6 — Baixando o programa para o S7-1200</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h5>Automação Industrial</h5>
+            <p class="mb-1">
+                Pesquisa de componentes e aplicações industriais.
+            </p>
+            <small>
+                © 2026 - Desenvolvido por <a href="https://github.com/Guuiilhermee" target="_blank" class="text-white">Guilherme Guimarães</a>
+            </small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

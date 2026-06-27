@@ -1,0 +1,329 @@
+/* RESET DO MAIN */
+.main-vintage {
+    padding: 15px 10px;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* CONTAINER DO MANUAL */
+.livro-container {
+    max-width: 880px;
+    width: 100%;
+    background: #ffffff;
+    padding: 25px 20px 30px 20px;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+
+/* TÍTULO PRINCIPAL */
+.titulo-livro {
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+}
+
+.titulo-livro span {
+    background: #000000;
+    color: #ffffff;
+    padding: 0 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 6px;
+    font-family: 'Courier New', monospace;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.subtitulo-livro {
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    color: #333333;
+    font-style: italic;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.subtitulo-livro strong {
+    font-weight: 700;
+    color: #000000;
+}
+
+/* ===== BLOCOS DE TUTORIAL ===== */
+.passo {
+    margin-bottom: 25px;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.passo:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* TÍTULO DO PASSO */
+.passo h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-left: 4px solid #000000;
+    padding-left: 10px;
+}
+
+.passo h2 .numero-passo {
+    background: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 0 8px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 1px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* TEXTO DO PASSO */
+.passo p {
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-left: 4px;
+    word-wrap: break-word;
+}
+
+.passo p strong {
+    font-weight: 700;
+    color: #000000;
+    border-left: 2px solid #666666;
+    padding-left: 6px;
+    background: #f0f0f0;
+}
+
+.passo .destaque-preto {
+    background: #000000;
+    color: #ffffff;
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 4px;
+    font-family: 'Courier New', monospace;
+    display: inline-block;
+}
+
+/* IMAGEM DO PASSO - P&B */
+.img-passo {
+    margin: 8px 0 0 0;
+    text-align: center;
+    border: 1px solid #000000;
+    background: #f5f5f5;
+    padding: 6px;
+    max-width: 100%;
+}
+
+.img-passo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* filter: grayscale(100%); */
+    border: 1px solid #333333;
+}
+
+.img-passo .legenda {
+    margin-top: 6px;
+    font-family: 'Times New Roman', serif;
+    font-size: 12px;
+    color: #333333;
+    font-style: italic;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .livro-container {
+        padding: 20px 15px 25px 15px;
+    }
+
+    .titulo-livro {
+        font-size: 19px;
+    }
+
+    .titulo-livro span {
+        font-size: 11px;
+        padding: 0 6px;
+    }
+
+    .subtitulo-livro {
+        font-size: 14px;
+    }
+
+    .passo h2 {
+        font-size: 16px;
+        padding-left: 8px;
+    }
+
+    .passo p {
+        font-size: 14px;
+    }
+
+    .passo .destaque-preto {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-vintage {
+        padding: 10px 6px;
+    }
+
+    .livro-container {
+        padding: 15px 10px 20px 10px;
+        border-width: 1px;
+    }
+
+    .titulo-livro {
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .titulo-livro span {
+        font-size: 10px;
+        padding: 0 5px;
+        letter-spacing: 0.5px;
+    }
+
+    .subtitulo-livro {
+        font-size: 13px;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+    }
+
+    .passo {
+        margin-bottom: 18px;
+        padding-bottom: 14px;
+    }
+
+    .passo h2 {
+        font-size: 14px;
+        padding-left: 6px;
+        gap: 4px;
+        border-left-width: 3px;
+    }
+
+    .passo h2 .numero-passo {
+        font-size: 10px;
+        padding: 0 6px;
+        letter-spacing: 0.5px;
+    }
+
+    .passo p {
+        font-size: 13px;
+        line-height: 1.7;
+        padding-left: 2px;
+    }
+
+    .passo p strong {
+        padding-left: 4px;
+        border-left-width: 2px;
+    }
+
+    .passo .destaque-preto {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    .img-passo {
+        padding: 4px;
+        margin-top: 6px;
+    }
+
+    .img-passo .legenda {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 360px) {
+    .livro-container {
+        padding: 12px 8px 15px 8px;
+    }
+
+    .titulo-livro {
+        font-size: 14px;
+    }
+
+    .titulo-livro span {
+        font-size: 9px;
+        padding: 0 4px;
+    }
+
+    .subtitulo-livro {
+        font-size: 12px;
+    }
+
+    .passo h2 {
+        font-size: 13px;
+        padding-left: 4px;
+    }
+
+    .passo h2 .numero-passo {
+        font-size: 9px;
+        padding: 0 4px;
+    }
+
+    .passo p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .passo .destaque-preto {
+        font-size: 9px;
+        padding: 0 4px;
+    }
+
+    .img-passo .legenda {
+        font-size: 9px;
+    }
+}
+
+.main-vintage {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 0 !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
