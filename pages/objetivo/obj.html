@@ -464,12 +464,13 @@
         </section>
 
         <!-- OBJETIVO -->
-        <div class="objective">
+        <div class="objective link_empresa">
             <h2>Exercício Quiz</h2>
-            <p>Quiz sobre componentes sensores e dispositivos para automação.</p>
+            <p>Teste seus conhecimentos sobre componentes, sensores e dispositivos utilizados na automação industrial. O quiz contém questões de dificuldade básica a intermediária para reforçar os conceitos apresentados neste material. <a href="#" id="abrirQuiz">Clique aqui</a> para iniciar o quiz.</p>
         </div>
 
-        <section>
+        <!-- QUIZ -->
+        <section id="quiz" style="display: none;">
 
     <form class="form-quiz">
 
@@ -934,6 +935,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.15.6/js/jsplumb.min.js"></script>
+
+    <script>
+        const btnQuiz = document.getElementById("abrirQuiz");
+        const quiz = document.getElementById("quiz");
+
+        btnQuiz.addEventListener("click", function (e) {
+            e.preventDefault();
+
+        if (quiz.style.display === "none") {
+            quiz.style.display = "block";
+            btnQuiz.textContent = "Ocultar quiz";
+        } else {
+            quiz.style.display = "none";
+            btnQuiz.textContent = "Clique aqui";
+        }
+    });
+    </script>
 
 </body>
 
