@@ -114,16 +114,11 @@
 
 <div class="img-cell">
   <div class="col_img_cell">
-    <img src="../../img/objetivo/slide1.png" alt="">
-  </div>
-  <div class="col_img_cell">
-    <img src="../../img/objetivo/slide2.png" alt="">
-  </div>
-  <div class="col_img_cell">
-    <img src="../../img/objetivo/slide3.png" alt="">
+    <img src="../../img/objetivo/mobile_obj.png" alt="">
   </div>
 </div>
 
+<div class="exercicios-pc">
         <!-- OBJETIVO -->
         <div class="objective">
             <h2>Exercício Ligação</h2>
@@ -199,9 +194,8 @@
             <div class="text-center mt-4">
                 <h3 id="resultado"></h3>
             </div>
-            </div>
+           
         </section>
-
 
         <!-- EXERCICIO 2 -->
         <section id="exercicio2">
@@ -462,6 +456,7 @@
             </div>
 
         </section>
+</div>
 
         <!-- OBJETIVO -->
         <div class="objective link_empresa">
@@ -934,7 +929,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.15.6/js/jsplumb.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.15.6/js/jsplumb.min.js"></script> -->
 
     <script>
         const btnQuiz = document.getElementById("abrirQuiz");
@@ -952,6 +947,27 @@
         }
     });
     </script>
+
+    <script>
+if (window.innerWidth > 768) {
+
+    const arquivos = [
+        "https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.15.6/js/jsplumb.min.js",
+        "../../js/exercicio.js",
+        "../../js/exercicio2.js",
+        "../../js/exercicio3.js"
+    ];
+
+    arquivos.forEach(src => {
+        const script = document.createElement("script");
+        script.src = src;
+        document.body.appendChild(script);
+    });
+
+    instancia.repaintEverything();
+
+}
+</script>
 
 </body>
 

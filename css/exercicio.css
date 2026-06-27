@@ -372,3 +372,9 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 768px) {
+    .exercicios-pc{
+        display: none;
+    }
+}
