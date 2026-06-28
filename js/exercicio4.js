@@ -84,3 +84,7 @@ function corrigirQuiz() {
             behavior: "smooth"
         });
 }
+
+function limparQuiz() {
+    document.getElementById("resultadoQuiz").innerHTML = "";
+}
