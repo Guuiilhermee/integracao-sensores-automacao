@@ -949,20 +949,25 @@
     </script>
 
     <script>
-if (window.innerWidth > 768) {
+    if (window.innerWidth > 768) {
 
-    const arquivos = [
-        "https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.15.6/js/jsplumb.min.js",
-        "../../js/exercicio.js",
-        "../../js/exercicio2.js",
-        "../../js/exercicio3.js"
-    ];
+    const jsplumb = document.createElement("script");
+    jsplumb.src = "https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.15.6/js/jsplumb.min.js";
 
-    arquivos.forEach(src => {
-        const script = document.createElement("script");
-        script.src = src;
-        document.body.appendChild(script);
-    });
+    jsplumb.onload = function () {
+
+        [
+            "../../js/exercicio.js",
+            "../../js/exercicio2.js",
+            "../../js/exercicio3.js"
+        ].forEach(src => {
+            const script = document.createElement("script");
+            script.src = src;
+            document.body.appendChild(script);
+        });
+
+    };
+    document.body.appendChild(jsplumb);
 }
 </script>
 
