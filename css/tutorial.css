@@ -158,6 +158,11 @@
     word-wrap: break-word;
 }
 
+.url_geral a{
+    color: #1e1eff;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .livro-container {
         padding: 20px 15px 25px 15px;
