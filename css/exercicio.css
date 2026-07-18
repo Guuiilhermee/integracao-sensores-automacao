@@ -398,3 +398,13 @@
         display: block;
     }
 }
+
+.exercicio-1200{
+    display: none;
+}
+
+@media (min-width: 1200px){
+    .exercicio-1200{
+        display: block;
+    }
+}
