@@ -378,3 +378,23 @@
         display: none;
     }
 }
+
+.exercicio-1600{
+    display: none;
+}
+
+@media (min-width: 1600px){
+    .exercicio-1600{
+        display: block;
+    }
+}
+
+.exercicio-1400{
+    display: none;
+}
+
+@media (min-width: 1400px){
+    .exercicio-1400{
+        display: block;
+    }
+}
